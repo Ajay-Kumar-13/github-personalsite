@@ -1,0 +1,237 @@
+body
+{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+
+hr
+{
+    border-style: dotted none none none;
+    background-color: #EAF6F6;
+    border-width: 6px;
+    width: 5%;
+    margin: 100px auto;
+    
+}
+
+/* title section */
+
+#title 
+{
+    background-color: #e0f7f7;
+}
+
+
+
+/* containers */
+
+#title .container-fluid 
+{
+    padding: 3% 10% 0%;
+}
+
+.container-fluid
+{
+    padding: 3% 10%;
+}
+
+
+/* myskills section */
+
+#myskills
+{
+    background-color: #EAF6F6;
+}
+
+#myskills .mheading
+{
+    padding: 20px 0px;
+}
+
+.block
+{
+    padding: 10px;
+}
+
+/* footer section */
+
+#footer 
+{
+    margin: 100px 0 0 0;
+    background-color: #66bfbf;
+    padding: 60px 0;
+}
+
+.footer-link 
+{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover
+{
+    color: white;
+}
+
+.copywrite
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* navbar */
+
+.navbar-item 
+{
+    padding: 0 18px;
+}
+
+.navbar
+{
+    padding: 0 0 6rem 0;
+    color: #66bfbf;
+}
+
+/* .navbar-brand 
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+} */
+
+.nav-link 
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+/* images */
+.mountainimage
+{
+    width: 100%;
+    padding-top: 12%;
+    height: 300px;
+}
+
+.leftcloudimage
+{
+    width: 40%;
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
+
+.rightcloudimage
+{
+    width: 40%;
+    margin-right: 4rem;
+}
+
+.my-pic
+{
+    width: 25%;
+    margin: 20px auto;
+}
+
+.skill-images
+{
+    width: 40%;
+    margin-top: 1px;
+
+}
+
+
+/* headings */
+
+.bigheading
+{
+    font-family: 'Dancing Script', cursive;
+    line-height: 2;
+    font-weight: bold;
+    
+    font-size: 4.5rem;
+    color: #66bfbf;
+    
+    
+}
+
+.mediumheading
+{
+    font-family: 'Courgette', cursive;
+    line-height: 2;
+    color: #66bfbf;
+    /* font-size: 3vw; */
+    
+}
+
+.mheading
+{
+    font-family: 'Courgette', cursive;
+    line-height: 2;
+    color: #66bfbf;
+    margin: 20px 0;
+}
+
+/* Sentences */
+
+.text
+{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    color:#40514E;
+}
+
+.maxtext
+{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+    color:#40514E;
+}
+
+.contact-me .maxtext
+{
+    
+    margin: 50px auto 70px;
+}
+
+/* about */
+
+.profile
+{
+    padding: 3% 0%;
+}
+ 
+@media (max-width:768px)
+{
+    .cloudimage
+    {
+        width: 0%;
+        padding: 0%;
+    }
+
+    .middleslot
+    {
+        width:100%;
+    }
+
+}
+
+@media (max-width:1361px) and (min-width:768px)
+{
+    
+    .mountainimage
+    {
+        width: 0%;
+        padding: 0%;
+    }
+}
+
